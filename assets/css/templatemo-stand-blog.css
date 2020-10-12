@@ -208,7 +208,7 @@ header .navbar {
 }
 .navbar .navbar-brand h2 {
 	color: #1e1e1e;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-size: 24px;
 	font-weight: 900;
 	-webkit-transition: all .3s ease 0s;
@@ -235,7 +235,7 @@ header .navbar {
 	text-transform: capitalize;
 	font-size: 15px;
 	font-weight: 800;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: 0.5px;
 	color: #1e1e1e;
 	transition: all 0.3s;
