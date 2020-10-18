@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header Style */
 header {
-	position: absolute;
+	position: relative;
 	padding-bottom: 1px;
 	z-index: 99999;
 	width: 40%;
@@ -204,7 +204,7 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 12px;
+	margin-top: -12px;
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -408,6 +408,7 @@ header .navbar {
 .blog-posts {
 	margin-top: 100px;
 }
+
 .blog-posts .blog-post {
 	margin-bottom: 30px;
 }
