@@ -35,7 +35,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .main-button a {
 	display: inline-block;
-	background-color: #f48840;
+	background-color: white;
+	text-shadow: 2px 2px 4px black;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 500;
@@ -63,7 +64,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .page-heading .text-content h4 {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -81,7 +83,8 @@ h1,h2,h3,h4,h5,h6 {
 
 #preloader {
   overflow: hidden;
-  background: #f48840;
+  background: white;
+  text-shadow: 2px 2px 4px black;
   left: 0;
   right: 0;
   top: 0;
@@ -157,6 +160,7 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0;
   }
 }
+ 
 
 
 /* Header Style */
@@ -165,7 +169,7 @@ header {
 	padding-bottom: 1px;
 	z-index: 99999;
 	width: 40%;
-	height: 100px;
+	height: 120px;
 	background-color: #f7f7f7;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
@@ -174,7 +178,7 @@ header {
 }
 header .navbar {
 	padding: 29px 0px;
-	padding-top: 30px;
+	padding-top: 35px;
 	padding-right: em;	
 }
 .background-header .navbar {
@@ -200,7 +204,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #f48840!important;
+	color: white!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -222,7 +226,8 @@ header .navbar {
 .navbar .navbar-brand h2 em {
 	font-size: 30px;
 	font-style: normal;
-	color: #f48840;
+	color: black;
+	text-shadow: 2px 2px 10px black;
 }
 #navbarResponsive {
 	z-index: 999;
@@ -247,14 +252,16 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
-	background-color: #f48840;	
+	background-color: white;	
+	text-shadow: 2px 2px 4px black;
 	height: 46px;
 	outline: none;
 	border-radius: 0px;
@@ -274,7 +281,7 @@ header .navbar {
 
 /* Banner Style */
 .main-banner .container-fluid {
-	padding: 0px 10px;
+	padding: 0px 5px;
 	margin-bottom: -24px;
 }
 .owl-banner {
@@ -292,7 +299,8 @@ header .navbar {
 }
 
 .owl-banner .item .item-content .meta-category span {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -331,7 +339,8 @@ header .navbar {
 }
 
 .owl-banner .item .item-content ul li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .owl-banner .owl-nav {
@@ -381,7 +390,8 @@ header .navbar {
 }
 
 .call-to-action .main-content span {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 	font-size: 18px;
 	font-weight: 900;
 	letter-spacing: 0.5px;
@@ -430,7 +440,8 @@ header .navbar {
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	font-weight: 900;
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .blog-posts .down-content h4 {
@@ -478,7 +489,8 @@ header .navbar {
 }
 
 .blog-posts .down-content ul.post-info li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .blog-posts .down-content p {
@@ -499,7 +511,8 @@ header .navbar {
 
 .blog-posts .down-content ul.post-tags li:first-child i,
 .blog-posts .down-content ul.post-share li:first-child i {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 	margin-right: 5px;
 }
 
@@ -518,7 +531,8 @@ header .navbar {
 
 .blog-posts .down-content ul.post-tags li a:hover,
 .blog-posts .down-content ul.post-share li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .blog-posts .main-button a {
@@ -552,13 +566,15 @@ ul.page-numbers li a {
 }
 
 ul.page-numbers li.active a {
-	background-color: #f48840;
-	border-color: #f48840;
+	background-color: white;
+	text-shadow: 2px 2px 4px black;
+	border-color: white;
 	color: #fff;
 }
 
 ul.page-numbers li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .blog-posts .sidebar-heading h2 {
@@ -663,7 +679,8 @@ ul.page-numbers li a:hover {
 
 .blog-posts .submit-comment button {
 	display: inline-block;
-	background-color: #f48840;
+	background-color: white;
+	text-shadow: 2px 2px 4px black;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 500;
@@ -740,7 +757,8 @@ ul.page-numbers li a:hover {
 }
 
 .sidebar .recent-posts ul li h5:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .sidebar .recent-posts ul li span {
@@ -766,7 +784,8 @@ ul.page-numbers li a:hover {
 }
 
 .sidebar .categories ul li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 .sidebar .tags ul li {
@@ -789,8 +808,9 @@ ul.page-numbers li a:hover {
 }
 
 .sidebar .tags ul li a:hover {
-	background-color: #f48840;
-	border-color: #f48840;
+	background-color: white;
+	border-color: white;
+	text-shadow: 2px 2px 4px black;
 	color: #fff;
 }
 
@@ -839,7 +859,8 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 footer p {
@@ -849,11 +870,13 @@ footer p {
 }
 
 footer p a {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 footer p a:hover {
-	color: #f48840;
+	color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 
@@ -912,7 +935,8 @@ footer p a:hover {
 
 .contact-us .contact-form button {
 	display: inline-block;
-	background-color: #f48840;
+	background-color: white;
+	text-shadow: 2px 2px 4px black;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 500;
@@ -994,7 +1018,8 @@ footer p a:hover {
 }
 
 .about-us ul li a:hover {
-	background-color: #f48840;
+	background-color: white;
+	text-shadow: 2px 2px 4px black;
 }
 
 
@@ -1063,9 +1088,9 @@ footer p a:hover {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #f48840!important;
+		color: white!important;
 		border-bottom: none!important;
-		padding-bottom: 15px;
+		padding-bottom: 1px;
 	}
 	.owl-banner .item .item-content .meta-category span {
 		font-size: 18px;
