@@ -18,14 +18,17 @@
   }
   #p1
   {
-    color:red;
+    background-color: white;
+  text-shadow: 2px 2px 4px black;
+  
 	position:absolute;
 	left:100px;
 	top:10px;
   }
     #p2
   {
-    color:red;
+    background-color: white;
+	text-shadow: 2px 2px 4px black;
 	position:absolute;
 	left:100px;
 	top:30px;
@@ -47,8 +50,8 @@
   </style>
 </head>
 <body>
-<p id="p1">SCORE:</p>
-<p id="p2">HIGHSCORE:</p>
+<h2 style='padding-bottom: 2em;' id="p1">SCORE:</h2>
+<h2 id="p2">HIGHSCORE:</h2>
 <p id="score"></p>
 <p id="high"></p>
 <canvas width="400" height="400" id="game"></canvas>
