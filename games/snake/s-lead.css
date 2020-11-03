@@ -1,5 +1,5 @@
 #container {
-    width: 600px;
+    width: 200px;
     height: auto;
   }
   
@@ -18,7 +18,7 @@
     line-height: 45px;
   }
   
-  .score {
+  .highscore {
     position: relative;
     display: inline-block;
     width: 25%;

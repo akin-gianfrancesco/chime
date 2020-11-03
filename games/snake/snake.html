@@ -33,6 +33,14 @@
 	left:100px;
 	top:60px;
   }
+  #p3
+  {
+    background-color: white;
+    text-shadow: 2px 2px 4px black;
+	  position:absolute;
+	left:20px;
+	top:30px;
+  }
   #score
   {
     background-color: white;
@@ -58,6 +66,8 @@
 <h2 id="p2">HIGHSCORE:</h2>
 <p id="score"></p>
 <p id="high"></p>
+<a href="/index.html" id='p3' style=" background-color: white;
+text-shadow: 2px 2px 4px black; font-size: 30px;"> <-- </a>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -162,7 +172,7 @@ function loop() {
         snake.maxCells = 4;
         snake.dx = grid;
         snake.dy = 0;
-		score=0;
+    		score=0;
         apple.x = getRandomInt(0, 25) * grid;
         apple.y = getRandomInt(0, 25) * grid;
 	    document.getElementById('high').innerHTML=max;

@@ -1,4 +1,5 @@
 
+
 const cvs = document.getElementById('snake')
 
 const ctx = cvs.getContext('2d')
@@ -16,7 +17,7 @@ ground.src = 'img/ground.png'
 const foodImg = new Image()
 foodImg.src = 'img/food.png'
 
-//c reate csnake
+//create csnake
 
 let snake = []
 snake[0] = {
@@ -55,7 +56,7 @@ function direction(event){
 
 //  draw everything to the canvas
 
-funtion draw(){
+funtion draw() {
     ctx.drawImage(ground,0,0)
 
     for ( let i = 0; i < snake.length ; i++){
@@ -101,26 +102,3 @@ let game = setInterval(draw,100)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-let imageName = new Image()
-
-imageName.src = 'path/img.png'
-
-let audioName = new Audio()
-
-audioName.src = 'path/audio.png'
-
-ctx.drawImage(imageName, X,Y, Width, Height)
-
-ctx.drawImage()
