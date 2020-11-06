@@ -225,6 +225,7 @@ function loop() {
         document.getElementById('score').innerHTML=score;
         apple.x = getRandomInt(0, 25) * grid;
         apple.y = getRandomInt(0, 25) * grid;
+        localStorage.setItem('highscore', 'score');
       document.getElementById('high').innerHTML=max;
       document.getElementById('highscore').innerHTML=max;
       }
