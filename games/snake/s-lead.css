@@ -1,6 +1,9 @@
 #container {
     width: 200px;
-    height: auto;
+    height: 100px;
+    top: 150px;
+    left: 100px;
+    position: absolute;
   }
   
   .row {
@@ -16,6 +19,8 @@
     display: inline-block;
     width: 75%;
     line-height: 45px;
+    padding-left: 20px;
+   
   }
   
   .highscore {
@@ -25,13 +30,19 @@
   }
   
   .row:nth-child(1) {
-    background: gold;
+    background: rgb(179, 152, 0);
+    color: rgb(255, 217, 0);
+    font-weight: bolder;
   }
   
   .row:nth-child(2) {
-    background: #c0c0c0;
+    background: #7a7a7a;
+    color:#c0c0c0 ;
+    font-weight: bolder;
   }
   
   .row:nth-child(3) {
-    background: #cd7f32;
+    background: #924900;
+    color: #ce6a07;
+    font-weight: bolder;
   }

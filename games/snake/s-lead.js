@@ -45,7 +45,4 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
   
-  
-  function newHS(){
-    if newHS 
-  }
+  =
